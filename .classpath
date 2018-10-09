@@ -13,24 +13,23 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/vsingh/eclipse-workspace/Selenium/Jars/poi-3.11/poi-3.11-20141221.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/vsingh/eclipse-workspace/Selenium/Jars/poi-3.11/poi-examples-3.11-20141221.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/vsingh/eclipse-workspace/Selenium/Jars/poi-3.11/poi-excelant-3.11-20141221.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/vsingh/eclipse-workspace/Selenium/Jars/poi-3.11/poi-ooxml-3.11-20141221.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/vsingh/eclipse-workspace/Selenium/Jars/poi-3.11/poi-ooxml-schemas-3.11-20141221.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/vsingh/eclipse-workspace/Selenium/Jars/poi-3.11/poi-scratchpad-3.11-20141221.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/vsingh/eclipse-workspace/Selenium/Jars/poi-3.11/ooxml-lib/xmlbeans-2.6.0.jar"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/vivek/eclipse-workspace/EclipseCurrent/Jars/poi-3.11/poi-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vivek/eclipse-workspace/EclipseCurrent/Jars/poi-3.11/poi-examples-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vivek/eclipse-workspace/EclipseCurrent/Jars/poi-3.11/poi-excelant-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vivek/eclipse-workspace/EclipseCurrent/Jars/poi-3.11/poi-ooxml-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vivek/eclipse-workspace/EclipseCurrent/Jars/poi-3.11/poi-ooxml-schemas-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vivek/eclipse-workspace/EclipseCurrent/Jars/poi-3.11/poi-scratchpad-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vivek/eclipse-workspace/EclipseCurrent/Jars/poi-3.11/ooxml-lib/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
