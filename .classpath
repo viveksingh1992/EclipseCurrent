@@ -31,6 +31,6 @@
 	<classpathentry exported="true" kind="lib" path="C:/Users/vsingh/eclipse-workspace/Selenium/Jars/poi-3.11/poi-ooxml-schemas-3.11-20141221.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/vsingh/eclipse-workspace/Selenium/Jars/poi-3.11/poi-scratchpad-3.11-20141221.jar"/>
 	<classpathentry exported="true" kind="lib" path="C:/Users/vsingh/eclipse-workspace/Selenium/Jars/poi-3.11/ooxml-lib/xmlbeans-2.6.0.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
