@@ -100,7 +100,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>
-							C:\Users\vsingh\eclipse-workspace\Selenium\testng.xml
+							C:\Users\vsingh\eclipse-workspace\EclipseCurrentOffice\testng.xml
 						</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
