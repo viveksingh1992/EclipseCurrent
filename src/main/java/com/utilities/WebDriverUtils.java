@@ -81,7 +81,6 @@ public class WebDriverUtils {
 
 				throw new Exception("Driver is null");
 			}
-			System.out.println(url);
 			driver.get(url);
 
 		} catch (Exception ex) {
