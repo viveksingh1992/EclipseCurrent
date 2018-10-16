@@ -128,7 +128,7 @@ public class WebDriverUtils {
 		try {
 			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(scrFile,
-					new File("C:\\Users\\vsingh\\eclipse-workspace\\EclipseCurrentOffice\\defectScreenShots\\"
+					new File(System.getProperty("user.dir")+"defectScreenShots\\"
 							+ getTestName() + ".jpeg"));
 			Log.info(Environment.ReadExcelData("Global_Validater", 5, 1));
 
