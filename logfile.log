@@ -28,3 +28,7 @@
 2018-11-15 14:59:01,275 INFO  [Log] Test case passed 
 2018-11-15 14:59:01,276 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
 2018-11-15 14:59:02,877 INFO  [Log] Driver Quit Successful 
+2018-11-19 11:02:32,112 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-19 11:03:11,184 INFO  [Log] Test case passed 
+2018-11-19 11:03:11,184 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-19 11:03:12,837 INFO  [Log] Driver Quit Successful 
