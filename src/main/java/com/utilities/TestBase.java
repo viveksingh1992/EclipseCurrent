@@ -40,6 +40,11 @@ public class TestBase {
 				Log.info(Environment.ReadExcelData("Global_Validater", 4, 1));
 				report.endTest(test);
 				report.flush();
+				EmailReport.sendReportByGMail(Environment.ReadExcelData("EmailData", 0, 1),
+						Environment.ReadExcelData("EmailData", 1, 1), Environment.ReadExcelData("EmailData", 2, 1),
+						Environment.ReadExcelData("EmailData", 3, 1) + "( "
+								+ WebDriverUtils.getCurrentTimeUsingCalendar() + " )");
+				Log.info(Environment.ReadExcelData("Global_Validater", 7, 1));
 			} catch (Exception x) {
 				Log.error(x);
 				Log.info(Environment.ReadExcelData("Global_Validater", 3, 1));

@@ -1,34 +1,112 @@
-2018-10-16 17:03:54,259 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-10-16 17:04:23,374 INFO  [Log] Test case passed 
-2018-10-16 17:04:23,374 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-10-16 17:04:24,803 INFO  [Log] Driver Quit Successful 
-2018-10-16 17:05:29,592 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-10-16 17:05:59,046 INFO  [Log] Test case passed 
-2018-10-16 17:05:59,047 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-10-16 17:06:00,466 INFO  [Log] Driver Quit Successful 
-2018-10-18 15:02:51,499 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-10-18 15:03:53,595 INFO  [Log] Test case passed 
-2018-10-18 15:03:53,596 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-10-18 15:03:55,050 INFO  [Log] Driver Quit Successful 
-2018-10-22 10:32:18,494 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-10-22 10:34:29,046 INFO  [Log] Test case passed 
-2018-10-22 10:34:29,047 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-10-22 10:34:31,110 INFO  [Log] Driver Quit Successful 
-2018-11-15 14:53:02,638 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-11-15 14:54:31,346 INFO  [Log] Screenshot successfully taken and saved 
-2018-11-15 14:54:32,015 ERROR [Log] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: section.form__group.-button.\2b textCenter > button (tried for 10 second(s) with 500 milliseconds interval) 
-2018-11-15 14:54:32,679 INFO  [Log] Test case failed 
-2018-11-15 14:54:32,679 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-11-15 14:54:34,238 INFO  [Log] Driver Quit Successful 
-2018-11-15 14:54:39,398 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-11-15 14:55:07,662 INFO  [Log] Test case passed 
-2018-11-15 14:55:07,662 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-11-15 14:55:09,332 INFO  [Log] Driver Quit Successful 
-2018-11-15 14:58:39,004 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-11-15 14:59:01,275 INFO  [Log] Test case passed 
-2018-11-15 14:59:01,276 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-11-15 14:59:02,877 INFO  [Log] Driver Quit Successful 
-2018-11-19 11:02:32,112 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-11-19 11:03:11,184 INFO  [Log] Test case passed 
-2018-11-19 11:03:11,184 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-11-19 11:03:12,837 INFO  [Log] Driver Quit Successful 
+2018-11-23 11:51:15,691 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 11:51:49,951 INFO  [Log] Test case passed 
+2018-11-23 11:51:49,951 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 11:51:51,652 INFO  [Log] Driver Quit Successful 
+2018-11-23 12:05:35,713 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:06:11,904 INFO  [Log] Test case passed 
+2018-11-23 12:06:11,904 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:06:13,543 INFO  [Log] Driver Quit Successful 
+2018-11-23 12:07:52,125 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:08:34,976 INFO  [Log] Test case passed 
+2018-11-23 12:08:34,976 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:08:36,704 INFO  [Log] Driver Quit Successful 
+2018-11-23 12:14:38,187 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:15:03,072 INFO  [Log] Test case passed 
+2018-11-23 12:15:03,072 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:15:04,560 INFO  [Log] Driver Quit Successful 
+2018-11-23 12:25:07,130 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:25:53,098 INFO  [Log] Test case passed 
+2018-11-23 12:25:53,804 INFO  [Log] Test case passed 
+2018-11-23 12:25:53,804 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:25:55,324 INFO  [Log] Driver Quit Successful 
+2018-11-23 12:38:14,574 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:38:46,001 INFO  [Log] Test case passed 
+2018-11-23 12:38:46,001 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:38:47,491 INFO  [Log] Driver Quit Successful 
+2018-11-23 12:40:49,933 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:41:44,461 INFO  [Log] Test case passed 
+2018-11-23 12:41:44,461 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:41:46,083 INFO  [Log] Driver Quit Successful 
+2018-11-23 12:43:47,527 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:44:22,604 INFO  [Log] Test case passed 
+2018-11-23 12:44:22,604 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:44:24,279 INFO  [Log] Driver Quit Successful 
+2018-11-23 12:51:02,542 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:51:40,406 INFO  [Log] Test case passed 
+2018-11-23 12:51:40,406 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:51:41,941 INFO  [Log] Driver Quit Successful 
+2018-11-23 12:53:41,885 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:54:30,588 INFO  [Log] Test case passed 
+2018-11-23 12:54:30,588 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-23 12:54:32,476 INFO  [Log] Driver Quit Successful 
+2018-11-26 11:04:32,392 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 11:05:01,198 INFO  [Log] Test case passed 
+2018-11-26 11:05:01,198 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 11:05:02,880 INFO  [Log] Driver Quit Successful 
+2018-11-26 11:52:26,725 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 11:52:59,248 INFO  [Log] Test case passed 
+2018-11-26 11:52:59,248 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 11:53:00,725 INFO  [Log] Driver Quit Successful 
+2018-11-26 11:55:54,320 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 11:56:16,136 INFO  [Log] Test case passed 
+2018-11-26 11:56:16,136 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 11:56:17,599 INFO  [Log] Driver Quit Successful 
+2018-11-26 12:01:41,606 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:02:03,770 INFO  [Log] Test case passed 
+2018-11-26 12:02:03,770 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:02:05,316 INFO  [Log] Driver Quit Successful 
+2018-11-26 12:03:57,282 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:04:23,659 INFO  [Log] Test case passed 
+2018-11-26 12:04:23,663 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:04:25,324 INFO  [Log] Driver Quit Successful 
+2018-11-26 12:06:26,334 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:06:49,294 INFO  [Log] Test case passed 
+2018-11-26 12:06:49,294 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:06:50,820 INFO  [Log] Driver Quit Successful 
+2018-11-26 12:08:04,432 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:08:27,926 INFO  [Log] Test case passed 
+2018-11-26 12:08:27,926 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:08:29,549 INFO  [Log] Driver Quit Successful 
+2018-11-26 12:17:58,693 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:18:26,534 INFO  [Log] Test case passed 
+2018-11-26 12:18:26,534 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:18:28,171 INFO  [Log] Driver Quit Successful 
+2018-11-26 12:20:41,163 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:21:11,242 INFO  [Log] Test case passed 
+2018-11-26 12:21:11,242 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:21:12,798 INFO  [Log] Driver Quit Successful 
+2018-11-26 12:27:17,749 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:27:41,684 INFO  [Log] Test case passed 
+2018-11-26 12:27:41,684 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 12:27:43,149 INFO  [Log] Driver Quit Successful 
+2018-11-26 12:27:51,919 INFO  [Log] Email Sent Successful 
+2018-11-26 13:21:00,719 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 13:21:30,066 INFO  [Log] Test case passed 
+2018-11-26 13:21:30,066 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 13:21:31,692 INFO  [Log] Driver Quit Successful 
+2018-11-26 13:21:40,721 INFO  [Log] Email Sent Successful 
+2018-11-26 13:27:35,248 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 13:28:12,757 INFO  [Log] Test case passed 
+2018-11-26 13:28:12,757 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 13:28:14,312 INFO  [Log] Driver Quit Successful 
+2018-11-26 13:28:23,804 INFO  [Log] Email Sent Successful 
+2018-11-26 13:40:04,446 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 13:40:38,450 INFO  [Log] Test case passed 
+2018-11-26 13:40:38,454 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 13:40:40,089 INFO  [Log] Driver Quit Successful 
+2018-11-26 13:40:49,300 INFO  [Log] Email Sent Successful 
+2018-11-26 15:14:30,729 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 15:15:06,918 INFO  [Log] Test case passed 
+2018-11-26 15:15:06,918 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 15:15:08,435 INFO  [Log] Driver Quit Successful 
+2018-11-26 15:15:17,368 INFO  [Log] Email Sent Successful 
+2018-11-26 15:28:12,631 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 15:28:37,312 INFO  [Log] Test case passed 
+2018-11-26 15:28:37,312 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 15:28:38,924 INFO  [Log] Driver Quit Successful 
+2018-11-26 15:28:46,030 INFO  [Log] Email Sent Successful 
+2018-11-26 15:29:43,363 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 15:30:17,387 INFO  [Log] Test case passed 
+2018-11-26 15:30:17,387 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-26 15:30:19,226 INFO  [Log] Driver Quit Successful 
+2018-11-26 15:30:27,259 INFO  [Log] Email Sent Successful 

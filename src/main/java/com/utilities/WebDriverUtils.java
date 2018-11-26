@@ -1,7 +1,7 @@
 package com.utilities;
 
 import java.io.File;
-
+import java.time.LocalDateTime;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -128,14 +128,19 @@ public class WebDriverUtils {
 		try {
 			File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 			FileUtils.copyFile(scrFile,
-					new File(System.getProperty("user.dir")+"defectScreenShots\\"
-							+ getTestName() + ".jpeg"));
+					new File(System.getProperty("user.dir") + "defectScreenShots\\" + getTestName() + ".jpeg"));
 			Log.info(Environment.ReadExcelData("Global_Validater", 5, 1));
 
 		} catch (Exception x) {
 			Log.error(x);
 			Log.info(Environment.ReadExcelData("Global_Validater", 6, 1));
 		}
+	}
+
+	public static LocalDateTime getCurrentTimeUsingCalendar() {
+
+		LocalDateTime formattedDate = LocalDateTime.now();
+		return formattedDate;
 	}
 
 	public enum BrowserEnum {
