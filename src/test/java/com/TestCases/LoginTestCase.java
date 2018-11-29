@@ -9,22 +9,21 @@ import com.PageObjects.LoginPageObjects;
 import com.relevantcodes.extentreports.LogStatus;
 import com.utilities.Environment;
 import com.utilities.Log;
-import com.utilities.RetryAnalyzer;
 import com.utilities.TestBase;
 import com.utilities.WebDriverUtils;
 
-public class LoginTestCase extends TestBase {
 
-	@Test(retryAnalyzer = RetryAnalyzer.class)
-	public static void LoginTest() throws Exception {
+public class LoginTestCase extends TestBase {
+@Test
+	public void LoginTest() throws Exception {
 		DOMConfigurator.configure("Log4j.xml");
 		try {
 			Log.startTestCase("LoginTest");
-			LoginActions.LoginAction();
+			boolean status = LoginActions.LoginAction();
 			Assert.assertEquals(WebDriverUtils.TextChecker(LoginPageObjects.WelcomeText()),
-					Environment.ReadExcelData("Login_Validator", 1, 0));
+				Environment.ReadExcelData("Login_Validator", 1, 0));
+			Assert.assertTrue(status, "Test case failed");
 			getTest().log(LogStatus.PASS, Environment.ReadExcelData("Login_Validator", 2, 0));
-			Log.info(Environment.ReadExcelData("Global_Validater", 1, 1));
 			Log.endTestCase("LoginTest");
 		} catch (Exception e) {
 			WebDriverUtils.TakeScreenShot();
