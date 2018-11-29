@@ -25,19 +25,21 @@ public class TestStatistics extends TestBase implements ITestListener, IRetryAna
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		teardownTest(result);
-		passedtests.add(result.getMethod());
+		
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
 		teardownTest(result);
 		failedtests.add(result.getMethod());
+		failedtests.size();
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		teardownTest(result);
 		skippedtests.add(result.getMethod());
+		skippedtests.size();
 	}
 
 	@Override
@@ -70,6 +72,13 @@ public class TestStatistics extends TestBase implements ITestListener, IRetryAna
 		String status = result.isSuccess() ? "SUCCESS" : "FAILURE";
 		com.utilities.Log.info("======" + status + "======");
 		com.utilities.Log.info("Test: " + result.getInstanceName() + "." + result.getName());
+		if(status.equalsIgnoreCase("SUCCESS")) {
+			Log.info("Passed Test Size Is: " + passedtests.size());
+		}else if(status.equalsIgnoreCase("FAILURE")) {
+			Log.info("Passed Test Size Is: " + failedtests.size());
+		}else {
+			Log.info("Passed Test Size Is: " + skippedtests.size());
+		}
 	}
 
 }

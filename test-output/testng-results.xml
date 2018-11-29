@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="146885" started-at="2018-11-28T12:14:19Z" finished-at="2018-11-28T12:16:46Z">
+  <suite name="Default suite" duration-ms="40841" started-at="2018-11-29T08:28:07Z" finished-at="2018-11-29T08:28:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="146885" started-at="2018-11-28T12:14:19Z" finished-at="2018-11-28T12:16:46Z">
+    <test name="Default test" duration-ms="40841" started-at="2018-11-29T08:28:07Z" finished-at="2018-11-29T08:28:48Z">
       <class name="com.TestCases.LoginTestCase">
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.TestCases.LoginTestCase@4a94ee4]" name="setUp" is-config="true" duration-ms="6595" started-at="2018-11-28T12:14:19Z" finished-at="2018-11-28T12:14:26Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.TestCases.LoginTestCase@394e1a0f]" name="setUp" is-config="true" duration-ms="7551" started-at="2018-11-29T08:28:07Z" finished-at="2018-11-29T08:28:15Z">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.TestCases.LoginTestCase@4a94ee4]" name="LoginTest" duration-ms="95099" started-at="2018-11-28T12:14:26Z" finished-at="2018-11-28T12:16:01Z">
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.TestCases.LoginTestCase@394e1a0f]" name="LoginTest" duration-ms="31216" started-at="2018-11-29T08:28:15Z" finished-at="2018-11-29T08:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCases.LoginTestCase@4a94ee4]" name="tearDown" is-config="true" duration-ms="7678" started-at="2018-11-28T12:16:07Z" finished-at="2018-11-28T12:16:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.TestCases.LoginTestCase@394e1a0f]" name="tearDown" is-config="true" duration-ms="2018" started-at="2018-11-29T08:28:46Z" finished-at="2018-11-29T08:28:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.TestCases.LoginTestCase@4a94ee4]" name="suiteTearDown" is-config="true" duration-ms="13713" started-at="2018-11-28T12:16:48Z" finished-at="2018-11-28T12:17:02Z">
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.TestCases.LoginTestCase@394e1a0f]" name="suiteTearDown" is-config="true" duration-ms="8576" started-at="2018-11-29T08:28:48Z" finished-at="2018-11-29T08:28:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->

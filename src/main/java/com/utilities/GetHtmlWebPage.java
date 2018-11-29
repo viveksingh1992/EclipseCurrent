@@ -9,7 +9,7 @@ public class GetHtmlWebPage {
 
     public static String Doctype() throws IOException {
         
-        String fileName = System.getProperty("user.dir")+ "\\test-output\\emailable-report.html";
+        String fileName = System.getProperty("user.dir")+ "\\target\\surefire-reports\\emailable-report.html";
 
         Document doc = Jsoup.parse(new File(fileName), "utf-8");
 

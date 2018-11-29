@@ -1,49 +1,25 @@
-2018-11-28 17:18:36,098 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 17:18:57,647 INFO  [Log] Test case passed 
-2018-11-28 17:18:59,210 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 17:19:00,765 INFO  [Log] Driver Quit Successful 
-2018-11-28 17:19:09,304 INFO  [Log] Email Sent Successful 
-2018-11-28 17:41:42,168 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 17:42:03,902 INFO  [Log] Test case passed 
-2018-11-28 17:42:05,293 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 17:42:06,728 INFO  [Log] Driver Quit Successful 
-2018-11-28 17:42:15,476 INFO  [Log] Email Sent Successful 
-2018-11-28 17:43:17,957 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 17:43:39,907 INFO  [Log] Test case passed 
-2018-11-28 17:43:41,313 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 17:43:42,818 INFO  [Log] Driver Quit Successful 
-2018-11-28 17:43:51,247 INFO  [Log] Email Sent Successful 
-2018-11-28 17:44:39,763 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 17:45:04,939 INFO  [Log] Test case passed 
-2018-11-28 17:45:38,054 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 17:46:10,157 INFO  [Log] Driver Quit Successful 
-2018-11-28 17:47:02,351 INFO  [Log] Email Sent Successful 
-2018-11-28 18:06:48,787 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 18:08:10,226 ERROR [Log] org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=70.0.3538.110)
-  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DMINBNOI18021', ip: '192.168.10.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\vsingh\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55457}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}
-Session ID: 477e493d306ad88346eeb9710448dead 
-2018-11-28 18:08:11,090 INFO  [Log] ScreenShot Not taken 
-2018-11-28 18:08:11,765 ERROR [Log] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: i0116 (tried for 10 second(s) with 500 milliseconds interval) 
-2018-11-28 18:08:12,440 INFO  [Log] Test case failed 
-2018-11-28 18:08:12,440 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 18:08:13,711 INFO  [Log] Driver Quit Successful 
-2018-11-28 18:08:22,559 INFO  [Log] Email Sent Successful 
-2018-11-28 18:09:12,006 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 18:10:31,947 INFO  [Log] Screenshot successfully taken and saved 
-2018-11-28 18:10:32,720 ERROR [Log] org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: section.form__group.-button.\2b textCenter > button (tried for 10 second(s) with 500 milliseconds interval) 
-2018-11-28 18:10:33,469 INFO  [Log] Test case failed 
-2018-11-28 18:10:33,469 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 18:10:35,083 INFO  [Log] Driver Quit Successful 
-2018-11-28 18:10:44,173 INFO  [Log] Email Sent Successful 
-2018-11-28 18:11:11,123 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 18:12:46,373 INFO  [Log] Test case passed 
-2018-11-28 18:12:48,031 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
-2018-11-28 18:12:49,363 INFO  [Log] Driver Quit Successful 
-2018-11-28 18:12:58,362 INFO  [Log] Email Sent Successful 
+2018-11-29 15:05:25,496 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-29 15:06:00,603 INFO  [Log] Test case failed 
+2018-11-29 15:06:01,336 INFO  [Log] ======FAILURE====== 
+2018-11-29 15:06:01,336 INFO  [Log] Test: com.TestCases.LoginTestCase.LoginTest 
+2018-11-29 15:06:02,876 INFO  [Log] Driver Quit Successful 
+2018-11-29 15:06:07,669 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-29 15:06:46,631 INFO  [Log] Test case failed 
+2018-11-29 15:06:47,347 INFO  [Log] ======FAILURE====== 
+2018-11-29 15:06:47,347 INFO  [Log] Test: com.TestCases.LoginTestCase.LoginTest 
+2018-11-29 15:06:48,869 INFO  [Log] Driver Quit Successful 
+2018-11-29 15:06:57,300 INFO  [Log] Email Sent Successful 
+2018-11-29 15:11:29,894 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-29 15:11:51,214 INFO  [Log] Test case passed 
+2018-11-29 15:11:52,582 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-29 15:11:52,585 INFO  [Log] ======SUCCESS====== 
+2018-11-29 15:11:52,585 INFO  [Log] Test: com.TestCases.LoginTestCase.LoginTest 
+2018-11-29 15:11:53,881 INFO  [Log] Driver Quit Successful 
+2018-11-29 15:12:02,256 INFO  [Log] Email Sent Successful 
+2018-11-29 15:13:34,304 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Started       $$$$$$$$$$$$$$$$$$$$$ 
+2018-11-29 15:14:14,879 INFO  [Log] Test case passed 
+2018-11-29 15:14:16,254 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$        LoginTest  Execution Ended       $$$$$$$$$$$$$$$$$$$$$$$ 
+2018-11-29 15:14:16,255 INFO  [Log] ======SUCCESS====== 
+2018-11-29 15:14:16,255 INFO  [Log] Test: com.TestCases.LoginTestCase.LoginTest 
+2018-11-29 15:14:17,748 INFO  [Log] Driver Quit Successful 
+2018-11-29 15:14:25,997 INFO  [Log] Email Sent Successful 

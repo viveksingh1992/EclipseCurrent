@@ -3,18 +3,20 @@ package com.TestCases;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.Actions.LoginActions;
 import com.PageObjects.LoginPageObjects;
 import com.relevantcodes.extentreports.LogStatus;
 import com.utilities.Environment;
 import com.utilities.Log;
 import com.utilities.TestBase;
+import com.utilities.TestStatistics;
 import com.utilities.WebDriverUtils;
+import org.testng.annotations.Listeners;
 
-
+@Listeners(com.utilities.TestStatistics.class)
 public class LoginTestCase extends TestBase {
-@Test
+
+@Test(retryAnalyzer = TestStatistics.class)
 	public void LoginTest() throws Exception {
 		DOMConfigurator.configure("Log4j.xml");
 		try {
