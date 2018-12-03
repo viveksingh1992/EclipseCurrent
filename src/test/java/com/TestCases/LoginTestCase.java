@@ -11,19 +11,17 @@ import com.utilities.Log;
 import com.utilities.TestBase;
 import com.utilities.TestStatistics;
 import com.utilities.WebDriverUtils;
-import org.testng.annotations.Listeners;
 
-@Listeners(com.utilities.TestStatistics.class)
 public class LoginTestCase extends TestBase {
 
-@Test(retryAnalyzer = TestStatistics.class)
+	@Test(retryAnalyzer = TestStatistics.class)
 	public void LoginTest() throws Exception {
 		DOMConfigurator.configure("Log4j.xml");
 		try {
 			Log.startTestCase("LoginTest");
 			boolean status = LoginActions.LoginAction();
 			Assert.assertEquals(WebDriverUtils.TextChecker(LoginPageObjects.WelcomeText()),
-				Environment.ReadExcelData("Login_Validator", 1, 0));
+					Environment.ReadExcelData("Login_Validator", 1, 0));
 			Assert.assertTrue(status, "Test case failed");
 			getTest().log(LogStatus.PASS, Environment.ReadExcelData("Login_Validator", 2, 0));
 			Log.endTestCase("LoginTest");
