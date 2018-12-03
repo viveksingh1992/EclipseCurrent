@@ -29,8 +29,7 @@ public class LoginPageObjects {
 		return WebDriverUtils.FindElementByCSS(".jumbotron.text-center>h1>span");
 	}
 	
-	public static WebElement NextButtonEmail()
-    {
+	public static WebElement NextButtonEmail() {
         return WebDriverUtils.FindElementByID("idSIButton9");
     }
 }
