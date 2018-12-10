@@ -9,10 +9,11 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class WebDriverUtils {
 	public static WebDriver driver = null;
@@ -47,18 +48,13 @@ public class WebDriverUtils {
 			switch (currentBrowser) {
 
 			case FIREFOX:
-				System.setProperty("webdriver.gecko.driver", Constant.vFirefoxBrowserPath);
-
+				WebDriverManager.firefoxdriver().setup();
 				driver = new FirefoxDriver();
 				break;
 
 			case CHROME:
-				ChromeOptions options = new ChromeOptions();
-				System.setProperty("webdriver.chrome.driver", Constant.vChromeBrowserPath);
-				options.addArguments("--test-type");
-				options.addArguments("--start-maximized");
-				options.addArguments("--lang=en");
-				driver = new ChromeDriver(options);
+				WebDriverManager.chromedriver().setup();
+				driver = new ChromeDriver();
 				break;
 
 			default:
